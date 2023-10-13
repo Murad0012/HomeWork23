@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.first-header{
+    background-color: rgb(5, 5, 80);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-header-left, .first-header-right{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    width: 200px;
+}
+
+.first-header-left{
+    margin-left: 65px;
+}
+
+.first-header-left li div{
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 100px;
+    height: 10px;   
+}
+
+.first-header-right li div{
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;   
+}
+
+header{
+    height: 100px;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-header-left, .second-header-right{
+    display: flex ;
+    gap: 20px;
+    list-style: none;
+    width: 200px;
+}
+
+.second-header-left{
+    background-color: rgb(5, 5, 80);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;   
+    margin-left: 60px;
+}
+
+.second-header-right{
+    margin-right: 170px;
+    margin-top: 45px;
+}
+
+.second-header-right li div{
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 60px;
+    height: 10px;   
+}
+
+.section1{
+    background-color: rgb(5, 5, 80);
+    height: 350px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1-up, .section1-middle1 ,.section1-middle2{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.section1-up{
+    margin-top: 45px;
+}
+
+.section1-up li div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.section1-middle1,.section1-middle2{
+    gap: 5px;
+}
+
+.section1-middle1 li div{
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.section1-middle2 li div{
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.section1-bottom{
+    margin-bottom: 45px;
+}
+
+.section1-bottom{
+    background-color: aquamarine;
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.section2{
+    background-color: white;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2-top,.section2-bottom{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.section2-top li div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+
+.darkblue-image{
+    background-color: rgb(5, 5, 80);
+    height: 100px;
+    width: 245px;
+    border-radius: 5px;
+}
+
+.section3{
+    background-color: white;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section3-top,.section3-bottom{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.section3-top li div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.section3-bottom{
+    gap: 18px;
+}
+
+.section3-bottom li div{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+.section3-bottom li .line{
+    background-image: linear-gradient(142deg, aquamarine 25%, rgb(5, 5, 80) 25%, rgb(5, 5, 80) 50%, aquamarine 50%, aquamarine 75%, rgb(5, 5, 80)  75%, rgb(5, 5, 80) 100%);
+    background-size: 16.24px 12.69px;
+}
+
+.section4{
+    background-color: white;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section4-top,.section4-bottom{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.section4-top li div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.section4-bottom{
+    display: flex;
+    gap: 100px;
+}
+
+.section4-bottom li  div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+}
+.section4-bottom li div .circle{
+    background-color: rgb(5, 5, 80);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.section4-bottom-line1 {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.section4-bottom-line1 li div{
+    background-color: rgb(5, 5, 80);
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.section4-bottom-line2 {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.section4-bottom-line2 li div{
+    background-color: rgb(5, 5, 80);
+    width: 200px;
+    height: 4px;  
+    border-radius: 20px;
+}
+
+.section4-bottom-line3 {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.section4-bottom-line3 li div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 4px;
+    border-radius: 20px;
+}
